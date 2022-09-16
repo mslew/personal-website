@@ -1,11 +1,130 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Node.js on Azure Template</title>
-</head>
-<body>
-	<h1>Node.js and Express Hosted on Microsoft Azure Template</h1>
-	<p>This repository is a template that can be used to create a Node.js and Express website for hosting on Microsoft 
-	Azure.</p>
-</body>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF"-8>
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
+        <title>Maximus Lewis</title>
+        <link rel = "stylesheet"
+        href = "https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel = "stylesheet"
+        href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity  = "sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin = "anonymous" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet"> 
+        
+        <link rel = "stylesheet" href = "css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class = "logo">
+                <img src = "images/logo.jpg" alt = "logo">
+            </div>
+            <button class = "nav-toggle" aria-label = "toggle navigation">
+                <span class = "hamburger"></span>
+            </button>
+            <nav class = "nav">
+                <ul class = "nav__list">
+                    <li class = "nav__item "><a href = "#home"  class = "nav__link">Home</a></li>
+                    <li class = "nav__item "><a href = "#knowledge"  class = "nav__link">What I Know</a></li>
+                    <li class = "nav__item "><a href = "#about"  class = "nav__link">About Me</a></li>
+                    <li class = "nav__item "><a href = "#projects"  class = "nav__link">Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--Introduction-->
+        <section class = "intro" id = "home">
+            <h1 class = "section__title section__title--intro">
+                Hi,I am <strong>Maximus Lewis.</strong>
+            </h1>
+            <p class = "section__subtitle section__subtitle--intro">Software Engineer</p>
+            <img src = "images/welcomephoto.jpg" alt = "a picture of me smiling" class = "intro__img">
+        </section>
+
+        <!--What I Know-->
+        <section class = "what-i-know" id = "knowledge">
+            <h2 class = "section__title section__title--knowledges">What I Know</h2>
+            <div class = "knowledges">
+                <div class = "knowledge">
+                    <h3>Deep Understanding of Algorithm Analysis and Data Structures</h3>
+                    <p>I have extensive knowledge of how good algorithms are designed. 
+                        In addition to this, I know the many different popular data structures, 
+                        how they function, and their applications.</p>
+                </div>
+
+                <div class = "knowledge">
+                    <h3>Proficient in Python and Java</h3>
+                    <p>The languages I have written in the most is Python and Java.
+                        I have done most of my Algorithm/Data Structure work in Python.
+                        Both languages I have utilized Object-Oriented Design and have written
+                        many different programs achieving different tasks. </p>
+                </div>
+
+                <div class = "knowledge">
+                    <h3>Object-Oriented Design Principles</h3>
+                    <p>Some of my favorite work has been developing software
+                        using Object-Oriented Design principles. I have emphasized
+                        this development style in my coursework.</p>
+                </div>
+            </div>
+
+            <a href = "#projects" class = "btn">My Work</a>
+        </section>
+
+        <!--About Me-->
+        <section class = "about-me" id = "about">
+            <h2 class = "section__title section__title--about">Who I Am</h2>
+            <p class = "section__subtitle section__subtitle--about">Computer Science Student at Lewis University</p>
+
+            <div class = "about-me__body">
+                <p>Growing up in Lockport, Illinois I have always enjoyed
+                    technology. In high school I decided to take a couple coding classes
+                    because it would be fun. Who would have thought the impact it would
+                    have had on my life. I decided to major in Computer Science!
+                </p>
+                <p> Studying Computer Science and Mathematics at Lewis University
+                    has been a mentally challenging, but equally intellectually 
+                    stimulating time of my life. I have really enjoyed my studies so far and 
+                    cannot wait to graduate in May of 2023 to pursue Software Engineering as a career! 
+                </p>
+            </div>
+
+            <img src = "images/aboutmephoto.jpg" alt = "me doing something cool" class = "about-me__img">
+        </section>
+
+        <!--Projects-->
+        <section class = "my-projects" id = "projects">
+            <h2 class = "section_title section__title--project">Projects</h2>
+            <p class = "section__subtitle section__subtitle--project">You are looking at it! :) Currently working on an Android app, and a website!</p>
+            <!-- CHANGE THIS LATER WHEN YOU ACTUALLY HAVE PROJECTS DONE -->
+            <div class = "portfolio">
+                <!--Portfolio Item 01-->
+                <a href = "#" class = "portfolio__item">
+                    <!--<img src = "PUT SOMETHING HERE" alt = "" class = "portfolio__img">-->
+                    <!--MAY NEED TO ADD THINGS HERE LATER BOSS MAN WHEN YOU HAVE MORE PROJECTS GG-->
+                </a>
+            </div>
+        </section>
+
+        <!--Footer-->
+        <footer class = "footer">
+            <a href = "mailto:max@maximuslewis.com" target = "_blank" class = "footer__link">My Email</a>
+            <h3 class = "dot"></h3>
+            <a href = "images/Resume.pdf" target = "_blank" class = "footer__link">Resume</a>
+            <ul class = "social-list">
+                <li class = "social_list__item "><a class = "social-list__link"
+                href = "https://github.com/mslew" target = "_blank"><i class="fab fa-github"></i></a></li>
+                <li class = "social_list__item "><a class = "social-list__link"
+                href = "https://www.linkedin.com/in/maximus-lewis-50ba47203/" target = "_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li class = "social_list__item "><a class = "social-list__link"
+                href = "https://lewisu.joinhandshake.com/users/20583963" target = "_blank"><i class="fas fa-handshake"></i></i></a></li>
+                <li class = "social_list__item "><a class = "social-list__link"
+                href = "https://www.instagram.com/maxslewis/" target = "_blank"><i class="fab fa-instagram"></i></a></li>    
+            </ul>
+        </footer>
+        <script src = "js/index.js"></script>
+    </body>
 </html>
