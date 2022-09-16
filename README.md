@@ -1,11 +1,4 @@
-# Node.js and Express Hosted on Microsoft Azure Template
+# Personal Website
 
-Dependencies: Node.js and Express
-
-This repository is a template that can be used to create a Node.js and Express website for hosting on Microsoft Azure.
-
-Initial Usage:
-- npm install express
-- npm start
-
-
+This was created using Professor Pogue's node-js-express-and-azure-template.
+I included my own HTML, JavaScript, and CSS for the website. 
