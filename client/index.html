@@ -9,13 +9,10 @@
         <link rel = "stylesheet"
         href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
         integrity  = "sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin = "anonymous" />
-
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet"> 
-        
         <link rel = "stylesheet" href = "css/style.css">
-
     </head>
     <body>
         <header>
@@ -54,7 +51,6 @@
                         In addition to this, I know the many different popular data structures, 
                         how they function, and their applications.</p>
                 </div>
-
                 <div class = "knowledge">
                     <h3>Proficient in Python and Java</h3>
                     <p>The languages I have written in the most is Python and Java.
@@ -62,7 +58,6 @@
                         Both languages I have utilized Object-Oriented Design and have written
                         many different programs achieving different tasks. </p>
                 </div>
-
                 <div class = "knowledge">
                     <h3>Object-Oriented Design Principles</h3>
                     <p>Some of my favorite work has been developing software
@@ -70,7 +65,6 @@
                         this development style in my coursework.</p>
                 </div>
             </div>
-
             <a href = "#projects" class = "btn">My Work</a>
         </section>
 
@@ -78,7 +72,6 @@
         <section class = "about-me" id = "about">
             <h2 class = "section__title section__title--about">Who I Am</h2>
             <p class = "section__subtitle section__subtitle--about">Computer Science Student at Lewis University</p>
-
             <div class = "about-me__body">
                 <p>Growing up in Lockport, Illinois I have always enjoyed
                     technology. In high school I decided to take a couple coding classes
@@ -91,28 +84,83 @@
                     cannot wait to graduate in May of 2023 to pursue Software Engineering as a career! 
                 </p>
             </div>
-
             <img src = "images/aboutmephoto.jpg" alt = "me doing something cool" class = "about-me__img">
         </section>
 
         <!--Projects-->
         <section class = "my-projects" id = "projects">
             <h2 class = "section_title section__title--project">Projects</h2>
-            <p class = "section__subtitle section__subtitle--project">You are looking at it! :) Currently working on an Android app, and a website!</p>
+            <p class = "section__subtitle section__subtitle--project">Some of the projects I have worked on in my classes and free time.</p>
             <!-- CHANGE THIS LATER WHEN YOU ACTUALLY HAVE PROJECTS DONE -->
             <div class = "portfolio">
                 <!--Portfolio Item 01-->
-                <a href = "#" class = "portfolio__item">
-                    <!--<img src = "PUT SOMETHING HERE" alt = "" class = "portfolio__img">-->
-                    <!--MAY NEED TO ADD THINGS HERE LATER BOSS MAN WHEN YOU HAVE MORE PROJECTS GG-->
-                </a>
+                <div class = "portfolio__item">
+                <div class = "portfolio__item__title"><h4>An Agent-Based Model of Environmental Transmission of <i>C. difficile</i> in Healthcare Settings</h4></div>
+                <ul>
+                <li>Winner: The Janet L. Andersen Award for Undergraduate Research in Mathematical or Computational Biology</li>
+                <ul>
+                    <li>Issued by The Special Interest Group of the Mathematical Association of America on Mathematical and Computational Biology.</li>
+                    <li>This was awarded to me after I presented this research project during the undergraduate poster session at the Mathematical Association of America’s 2022 MathFest in Philadelphia, PA.</li>
+                </ul>
+                <li>Winner: 2022 MAA MathFest Undergraduate Student Poster Session Outstanding Poster</li>
+                <ul>
+                    <li>Issued by The Mathematical Association of America.</li> 
+                    <li>This was awarded to me after I presented this research project during the undergraduate poster session at the Mathematical Association of America’s 2022 MathFest in Philadelphia, PA.</li>
+                </ul>
+                    <li>Written in NetLogo.</li>
+                    <li>Research Conducted over the Summer and Fall of 2022.</li>
+                    <li>Worked with a partner and with guidance of two faculty advisors.</li>
+                    <li>Simulates the spread of <i>C. difficile</i> in a hospital ward.</li>
+                    <li>Agents: 30 patients, 10 nurses, 3 doctors. All of which contribute to spread. </li>
+                    <li>Model includes two different classes of touch surfaces (high and low-touch) in each hospital room. Both of which contribute to spread.</li>
+                    <li>This model is used to determine accurate control strategies of this infection.</li>
+                </ul>
+                </div>
+
+                <!--Portfolio Item 02-->
+                <div class = "portfolio__item">
+                <div class = "portfolio__item__title"><h4>Personal Website</h4>
+                <p><a class = "repository__link" href = "https://github.com/mslew/personal-website-node-js" target = "_blank">Repository</a></p>
+                </div>
+                <ul>
+                    <li>You are looking at it!</li>
+                    <li>Written in HTML and CSS, with a little JavaScript.</li>
+                    <li>Hosted in Microsoft Azure.</li>
+                </ul>
+                </div>
+
+                <!--Portfolio Item 03-->
+                <div class = "portfolio__item">
+                <div class = "portfolio__item__title"><h4>In Theaters</h4>
+                <p><a class = "repository__link" href = "https://github.com/mslew/MAD-Final-Project" target = "_blank">Repository</a></p>
+                </div>
+                <ul>
+                    <li>Written in Java.</li>
+                    <li>Android application that utilizes the IMDb API and updates weekly on the new movies in theaters.</li>
+                    <li>Allows users to to click a movie of their liking and the application updates with information of the movie and a picture of the poster.</li>
+                    <li>Finally, it allows users to buy tickets to the movie using Google.</li>
+                </ul>
+                </div>
+
+                <!--Portfolio Item 04-->
+                <div class = "portfolio__item">
+                <div class = "portfolio__item__title"><h4>Math Tutor</h4>
+                <p><a class = "repository__link" href = "https://github.com/mslew/math-tutor" target = "_blank">Repository</a></p>
+                </div>
+                <ul>
+                    <li>Written in HTML, CSS, and JavaScript.</li>
+                    <li>Prompts the user math questions with addition, subtraction, multiplication, and division.</li>
+                    <li>There are 10 levels, 5 right questions to advance to a higher level.</li>
+                    <li>There are 3 lives, one wrong answer gets rid of a life.</li>
+                    <li>Applicaiton keeps track of current score and high score which is stored as a cookie.</li>
+                </ul>
+                </div>
             </div>
         </section>
 
         <!--Footer-->
         <footer class = "footer">
-            <a href = "mailto:max@maximuslewis.com" target = "_blank" class = "footer__link">My Email</a>
-            <h3 class = "dot"></h3>
+            <a href = "mailto:max@maximuslewis.com" target = "_blank" class = "footer__link">Email</a>
             <a href = "images/Resume.pdf" target = "_blank" class = "footer__link">Resume</a>
             <ul class = "social-list">
                 <li class = "social_list__item "><a class = "social-list__link"
