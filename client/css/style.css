@@ -404,7 +404,8 @@ header{
 .portfolio__item__title{
     background-color: var(--clr-accent);
     padding: .25em;
-    text-indent: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
     width: auto;
 }
 
